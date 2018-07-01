@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>收货地址管理</title>
+  <link rel="stylesheet" href="../assets/mui/css/mui.min.css">
+  <link rel="stylesheet" href="../assets/mui/css/mui.picker.css"/>
+  <link rel="stylesheet" href="../assets/mui/css/mui.poppicker.css"/>
+  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+<!--乐淘的主容器-->
+<div class="lt_container">
+  <header class="lt_header">
+    <a href="javascript:history.back();" class="left"><span class="mui-icon mui-icon-back"></span></a>
+    <!--<h3>收货地址管理</h3>-->
+    <div class="box">
+      <span class="title"></span>
+    </div>
+  </header>
+  <div class="lt_body">
+    <div class="lt_content">
+      <div class="mui-input-row">
+        <input name="recipients" type="text" placeholder="收货人">
+      </div>
+      <div class="mui-input-row">
+        <input name="mobile" type="text" placeholder="电话号码">
+      </div>
+      <div class="mui-input-row">
+        <input name="postCode" type="text" placeholder="邮编">
+      </div>
+      <div class="mui-input-row">
+        <input name="address" type="text" readonly placeholder="省市区">
+      </div>
+      <div class="mui-input-row">
+        <textarea name="addressDetail" id="textarea" rows="5" placeholder="详细地址"></textarea>
+      </div>
+      <div class="box">
+        <a href="javascript:;" class="mui-btn mui-btn-primary btn_updatePass btn_submit">确认</a>
+      </div>
+    </div>
+  </div>
+  <div class="lt_footer">
+    <a href="../index.html"><span class="fa fa-home"><p>首页</p></span></a>
+    <a href="../category.html"><span class="fa fa-bars"><p>分类</p></span></a>
+    <a href="../team/index.html"><span class="fa fa-users"><p>拼购</p></span></a>
+    <a href="cart.html"><span class="fa fa-shopping-cart"><p>购物车</p></span></a>
+    <a href="index.html" class="now"><span class="fa fa-user"><p>个人中心</p></span></a>
+  </div>
+</div>
+<script src="../assets/mui/js/mui.min.js"></script>
+<script src="../assets/zepto/zepto.min.js"></script>
+<script src="../assets/art-template/template-native.js"></script>
+<script src="../js/user/addressManage.js"></script>
+<script src="../js/common.js"></script>
+<script src="../assets/mui/js/mui.picker.js"></script>
+<script src="../assets/mui/js/mui.poppicker.js"></script>
+<script src="../js/user/city.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+/*拼团首页*/
+.t_product {
+    height: 275px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+.t_product a {
+    display: block;
+}
+.t_product img{
+    height: 160px;
+}
+.t_product .t_content{}
+.t_product .t_content p{
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+}
+.t_product .t_content .t_foot .t_left{
+    float: left;
+    vertical-align: top;
+}
+
+.t_product .t_content .t_foot .t_left .price{
+    float: left;
+    padding-left: 5px;
+    color: #069;
+}
+.t_product .t_content .t_foot .t_left .price>.t_now {
+    font-size: 18px;
+    padding-left: 5px;
+}
+.t_product .t_content .t_foot .t_left .price>.team{
+    font-size: 12px;
+    float: left;
+}
+.t_product .t_content .t_foot .t_left .t_old {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+.t_product .t_content .t_foot .t_right{
+    float: right;
+}
+.t_product .t_content .t_foot .t_right button{
+    border-radius: 15px;
+    background-color: #069;
+    color: #fff;
+}
+/*拼团详情页*/
+.t_pro{
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 10px;
+}
+.t_pro img{
+    height: 200px;
+}
+.t_pro .t_content {}
+.t_pro .t_content .t_time{
+    height: 60px;
+    width: 100%;
+}
+.t_pro .t_content .t_time .t_left{
+    float: left;
+}
+.t_pro .t_content .t_time .t_left .price{
+    margin-bottom: 0;
+}
+.t_pro .t_content .t_time .t_left .price .now{
+    font-size: 18px;
+    color: #069;
+}
+.t_pro .t_content .t_time .t_left .price i{
+    background-color: #069;
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+}
+.t_pro .t_content .t_time .t_left .price .old{
+    font-size: 12px;
+}
+.t_pro .t_content .t_time .t_left .time{
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: left;
+    color: #8f8f94;
+}
+.t_pro .t_content .t_time .t_right {
+    float: right;
+}
+.t_pro .t_content .t_time .t_right p{
+    text-align: right;
+    margin-bottom: 5px;
+    color: #8f8f94;
+}
+.t_pro .t_content .t_name{}
+.t_pro .t_content .t_name p{
+    color: #333;
+}
+.t_pro .t_content .t_name p .team{
+    color: #069;
+}
+.t_left {
+    float: left;
+}
+.t_right {
+    float: right;
+}
+.t_pro .t_content .t_ins{
+    color: #333;
+}
+.t_pro .t_content .t_ins .t_right{
+    padding-right: 20px;
+}
+.t_pro .t_content .t_ins span{
+    font-size: 12px;
+}
+.t_pro .t_content .t_part{
+    height: 60px;
+    width: 100%;
+}
+.t_pro .t_content .t_part>p{
+    margin-top: 10px;
+    text-align: left;
+}
+.t_pro .t_content .t_part .box{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #069;
+    border-radius: 20px;
+    position: relative;
+}
+.t_pro .t_content .t_part .box .t_left{
+    font-size: 12px;
+    padding-left: 20px;
+    vertical-align: middle
+}
+.t_pro .t_content .t_part .box .t_left img{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: -10px;
+}
+.t_pro .t_content .t_part .box .t_left p{
+}
+.t_pro .t_content .t_part .box a .t_right{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 16px;
+    background: #069;
+    color: #fff;
+    height: 38px;
+    width: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.t_footer {
+    width: 100%;
+    text-align: center;
+    height: 55px;
+    /*line-height: 55px;*/
+}
+.t_footer a {
+    width: 33.33%;
+    display: block;
+    float: left;
+    padding-top: 10px;
+}
+.t_footer a>p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+/*结算中心*/
+.t_pro .t_content div>span {
+    font-size: 14px;
+}
+.t_pro .t_content div>span:nth-last-child(1) {
+    padding-right: 20px;
+}
+.t_pro .t_content .t_left>p {
+    padding-left: 20px;
+}
+.color {
+    color: #333;
+}
+.t_ul .mui-navigate-right:after, .mui-push-right:after {
+    top: 10px;
+}
+.lt_trade> .t_footer .pp {
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    line-height:29px;
+    margin-top: 15px;
+    margin-right: 20px;
+    text-align: center;
+    color: #fff;
+    background: #069;
+}
